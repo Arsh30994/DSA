@@ -18,8 +18,8 @@ public:
                     res.push_back({nums[i], nums[l], nums[r]});
                     l++;
                     r--;
-                    while (l < r && nums[l] == nums[l - 1]) l++; // skip same
-                    while (l < r && nums[r] == nums[r + 1]) r--; // skip same
+                    while (l < r && nums[l] == nums[l - 1]) l++;
+                    while (l < r && nums[r] == nums[r + 1]) r--;
                 }
             }
         }
